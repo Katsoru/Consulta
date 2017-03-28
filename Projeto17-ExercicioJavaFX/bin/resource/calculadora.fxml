@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="162.0" prefWidth="285.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="33.0" layoutY="38.0" text="Valor 1:">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="59.0" text="Valor 2:">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="82.0" text="Resultado:">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_valor1" layoutX="102.0" layoutY="33.0" />
+      <TextField fx:id="txt_valor2" layoutX="102.0" layoutY="54.0" />
+      <TextField fx:id="txt_resul" layoutX="102.0" layoutY="77.0" />
+      <Button fx:id="btn_mais" layoutX="22.0" layoutY="115.0" mnemonicParsing="false" onAction="#maisOnAction" prefHeight="22.0" prefWidth="44.0" text="+" />
+      <Button fx:id="btn_menos" layoutX="80.0" layoutY="115.0" mnemonicParsing="false" onAction="#menosOnAction" prefHeight="22.0" prefWidth="44.0" text="-" />
+      <Button fx:id="btn_vezes" layoutX="143.0" layoutY="115.0" mnemonicParsing="false" onAction="#vezesOnAction" prefHeight="22.0" prefWidth="44.0" text="*" />
+      <Button fx:id="vtn_divisao" layoutX="198.0" layoutY="115.0" mnemonicParsing="false" onAction="#divisaoOnAction" prefHeight="22.0" prefWidth="44.0" text="/" />
+   </children>
+</AnchorPane>

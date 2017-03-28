@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="287.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.impacta.cursojava.controller.CadastroController">
+   <children>
+      <TextField fx:id="txt_aluno" layoutX="102.0" layoutY="69.0" prefHeight="22.0" prefWidth="228.0" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="28.0" />
+      <RadioButton layoutX="266.0" layoutY="141.0" mnemonicParsing="false" text="Domingo" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="18.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="dia" />
+         </toggleGroup>
+      </RadioButton>
+      <Button layoutX="195.0" layoutY="185.0" mnemonicParsing="false" onAction="#cancelarOnAction" text="Cancelar" />
+      <RadioButton layoutX="102.0" layoutY="141.0" mnemonicParsing="false" text="Noturno">
+         <toggleGroup>
+            <ToggleGroup fx:id="periodo" />
+         </toggleGroup>
+      </RadioButton>
+      <TextField fx:id="txt_curso" layoutX="102.0" layoutY="101.0" prefHeight="22.0" prefWidth="228.0" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="28.0" />
+      <Button layoutX="104.0" layoutY="185.0" mnemonicParsing="false" onAction="#okOnAction" prefHeight="22.0" prefWidth="56.0" text="Ok" />
+      <Label layoutX="22.0" layoutY="73.0" text="Aluno:" />
+      <Label layoutX="22.0" layoutY="105.0" text="Curso:" />
+      <RadioButton layoutX="27.0" layoutY="141.0" mnemonicParsing="false" text="Diurno" toggleGroup="$periodo" />
+      <Label layoutX="106.0" layoutY="21.0" text="Cadastro de Aluno">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="196.0" layoutY="141.0" mnemonicParsing="false" text="Sabado" toggleGroup="$dia" />
+      <ImageView fitHeight="45.0" fitWidth="41.0" layoutX="26.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resource.image/cadastro.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbl_mensagem" layoutX="34.0" layoutY="241.0" prefHeight="21.0" prefWidth="305.0" />
+   </children>
+</AnchorPane>

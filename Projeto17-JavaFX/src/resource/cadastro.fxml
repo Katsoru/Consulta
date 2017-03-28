@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="142.0" layoutY="310.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="58.0" text="OK" />
+      <Button layoutX="230.0" layoutY="310.0" mnemonicParsing="false" text="Cancelar" />
+      <Label layoutX="36.0" layoutY="27.0" text="Tela de Cadastro">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="34.0" layoutY="206.0" mnemonicParsing="false" text="Fumante" />
+      <Label layoutX="36.0" layoutY="75.0" text="Nome" />
+      <TextField layoutX="37.0" layoutY="95.0" prefHeight="22.0" prefWidth="358.0" />
+      <TextField layoutX="37.0" layoutY="154.0" prefHeight="22.0" prefWidth="358.0" />
+      <Label layoutX="42.0" layoutY="132.0" text="Endereço" />
+      <RadioButton layoutX="123.0" layoutY="206.0" mnemonicParsing="false" text="Solteiro" />
+      <RadioButton layoutX="123.0" layoutY="244.0" mnemonicParsing="false" text="Casado" />
+   </children>
+</Pane>
